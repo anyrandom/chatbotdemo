@@ -217,7 +217,7 @@ conversation = [
                                      "However, you can check the weather forecast on your local news website or a weather app on your phone."},
     {"role": "user", "content": "Do you offer Chocolate Mocha Light Roast Coffee?"},
     {"role": "assistant", "content": "We have a wide range of coffees you can select. Try out Chocolate Mocha Light Roast Coffee "
-                                     "at the following [link] (https://kdp-demo.dna2.hclets.com/#/productDetails/3884645)"}
+                                     "at the following [link](https://kdp-demo.dna2.hclets.com/#/productDetails/3884645)"}
 
 
 ]
@@ -262,7 +262,7 @@ if prompt:
 
     #Hardcoding this response as per temporary demo request
     if "Chocolate Mocha Light Roast" in prompt:
-        chat_response = "We have a wide range of coffees you can select. Try out Chocolate Mocha Light Roast Coffee at the following [link] (https://kdp-demo.dna2.hclets.com/#/productDetails/3884645)"
+        chat_response = "We have a wide range of coffees you can select. Try out Chocolate Mocha Light Roast Coffee at the following [link](https://kdp-demo.dna2.hclets.com/#/productDetails/3884645)"
     #End hardcoded response
     
     thinking_msg.empty()
