@@ -260,6 +260,11 @@ if prompt:
 
     chat_response = completion.choices[0].message.content
 
+    #Hardcoding this response as per temporary demo request
+    if "Chocolate Mocha Light Roast" in prompt:
+        chat_response = "We have a wide range of coffees you can select. Try out Chocolate Mocha Light Roast Coffee at the following [link] (https://kdp-demo.dna2.hclets.com/#/productDetails/3884645)"
+    #End hardcoded response
+    
     thinking_msg.empty()
     with st.chat_message("Assistant", avatar=barista_logo):
         st.write(chat_response)
