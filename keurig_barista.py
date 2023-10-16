@@ -92,7 +92,8 @@ conversation = [
                                   "Keurig only. If asked questions about topics other than coffee or tea or keurig recipes, answer that "
                                   "you are a virtual assistant built for Keurig, and are unable to answer such questions about other topics."
                                   "Do not answer any questions unrelated to coffee or tea or desserts, and mention that you are "
-                                  "a virtual assistant built for coffee and beverage recommendations only. "
+                                  "a virtual assistant built for coffee and beverage recommendations only. If asked about specific products "
+                                  "that are available on the Keurig website, try to provide links to those products. "
                                   "Do not answer questions about competitor coffee brands, like Starbucks or Nescafe."},
     {"role": "user", "content": "what are the coffee types?"},
     {"role": "assistant", "content": "There are various types of coffee, including hot coffees, iced coffees, "
